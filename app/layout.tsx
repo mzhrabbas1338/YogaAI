@@ -2,8 +2,8 @@ import type React from "react"
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import "./globals.css"
-// import { FirebaseAuthProvider } from "@/contexts/firebase-auth-context"
 import { AuthProvider } from "@/contexts/auth-context"
+import { Analytics } from "@vercel/analytics/react"  // ✅ Import Analytics
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -20,7 +20,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <AuthProvider>{children}</AuthProvider>  {/* ✅ This fixes your useAuth() error */}
+        <AuthProvider>{children}</AuthProvider>
+        <Analytics /> {/* ✅ Add this for tracking page views */}
       </body>
     </html>
   )
