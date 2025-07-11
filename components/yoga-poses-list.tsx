@@ -13,7 +13,7 @@ const yogaPoses = [
     description: "Strengthens thighs and ankles while stimulating the heart and diaphragm.",
     difficulty: "Intermediate",
     duration: "30-60 seconds",
-    image:"/pose-Images/chair.jpg",
+    image:"/pose-images/chair.jpg",
   },
   {
     id: "cobra",
@@ -23,7 +23,7 @@ const yogaPoses = [
     difficulty: "Intermediate",
     duration: "15-30 seconds",
     image:
-      "/pose-Images/cobra.jpg",
+      "/pose-images/cobra.jpg",
   },
   {
     id: "dog",
@@ -33,7 +33,7 @@ const yogaPoses = [
     difficulty: "Beginner",
     duration: "1-3 minutes",
     image:
-      "/pose-Images/dog.jpg",
+      "/pose-images/dog.jpg",
   },
   {
     id: "shoulderstand",
@@ -43,7 +43,7 @@ const yogaPoses = [
     difficulty: "Advanced",
     duration: "1-3 minutes",
     image:
-      "/pose-Images/shoulderstand.jpg",
+      "/pose-images/shoulderstand.jpg",
   },
   {
     id: "tree",
@@ -53,7 +53,7 @@ const yogaPoses = [
     difficulty: "Beginner",
     duration: "30-60 seconds",
     image:
-       "/pose-Images/tree.jpg",
+       "/pose-images/tree.jpg",
   },
   {
     id: "triangle",
@@ -63,7 +63,7 @@ const yogaPoses = [
     difficulty: "Intermediate",
     duration: "30-60 seconds",
     image:
-      "/pose-Images/triangle.jpg",
+      "/pose-images/triangle.jpg",
   },
   {
     id: "warrior",
@@ -73,7 +73,7 @@ const yogaPoses = [
     difficulty: "Intermediate",
     duration: "30-60 seconds",
     image:
-       "/pose-Images/warrior.jpg",
+       "/pose-images/warrior.jpg",
   },
 ]
 
