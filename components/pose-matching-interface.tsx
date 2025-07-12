@@ -34,7 +34,7 @@ export function PoseMatchingInterface({ pose }: Props) {
   const videoRef = useRef<HTMLVideoElement>(null)
   const canvasRef = useRef<HTMLCanvasElement>(null)
 
-  const IMAGE_URL = "https://pose-backend-3jrv.onrender.com//analyze-pose/"
+  const IMAGE_URL = "https://pose-backend-3jrv.onrender.com/analyze-pose/"
   const VIDEO_URL = "https://pose-backend-3jrv.onrender.com/analyze-live-frame/"
 
   const getPoseKey = (name: string) => name.trim().toLowerCase()
