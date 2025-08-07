@@ -36,7 +36,7 @@ export function DashboardHeader() {
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <div className="flex items-center space-x-2">
           <span className="text-2xl">🧘‍♂️</span>
-          <h1 className="text-xl font-bold text-gray-900">FitAI</h1>
+          <h1 className="text-xl font-bold text-gray-900">YogaAI</h1>
         </div>
 
         <DropdownMenu>

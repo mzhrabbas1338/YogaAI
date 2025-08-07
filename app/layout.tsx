@@ -8,7 +8,7 @@ import { Analytics } from "@vercel/analytics/react"  // ✅ Import Analytics
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "FitAI - Your AI-Powered Fitness Companion",
+  title: "YogaAI - Your AI-Powered Yoga Companion",
   description: "Practice yoga poses and track workouts with AI-powered feedback",
 }
 

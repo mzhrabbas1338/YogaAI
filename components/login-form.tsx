@@ -137,7 +137,7 @@ export function LoginForm() {
 
       <Card className="w-full shadow-xl">
         <CardHeader className="text-center">
-          <CardTitle>Welcome to FitAI</CardTitle>
+          <CardTitle>Welcome to YogaAI</CardTitle>
           <CardDescription>
             {isDemo ? "Demo Mode - Try any email/password" : "Sign in to your account or create a new one"}
           </CardDescription>

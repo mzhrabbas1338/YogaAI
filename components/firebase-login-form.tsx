@@ -192,7 +192,7 @@ export function FirebaseLoginForm() {
   return (
     <Card className="w-full shadow-xl">
       <CardHeader className="text-center">
-        <CardTitle>Welcome to FitAI</CardTitle>
+        <CardTitle>Welcome to YogaAI</CardTitle>
         <CardDescription>Your AI-powered fitness journey starts here</CardDescription>
       </CardHeader>
       <CardContent>
